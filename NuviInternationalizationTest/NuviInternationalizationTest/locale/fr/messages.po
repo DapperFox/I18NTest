@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+
+#: Controllers\HomeController.cs:13
+msgid "Modify this template to jump-start your ASP.NET MVC application."
+msgstr ""
+
+#: Views\Home\Index.cshtml:12
+msgid "To learn more about ASP.NET MVC visit"
+msgstr "Pour en savoir plus sur ASP.NET MVC visite"
+
