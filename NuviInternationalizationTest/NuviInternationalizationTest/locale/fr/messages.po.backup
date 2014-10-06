@@ -4,11 +4,23 @@ msgstr ""
 
 #: Controllers\AccountController.cs:378
 msgid "A user name for that e-mail address already exists. Please enter a different e-mail address."
-msgstr "Un nom d'utilisateur pour cette adresse e -mail existe déjà . S'il vous plaît entrer une adresse e -mail différente ."
+msgstr "Un nom d'utilisateur pour cette adresse e -mail existe dï¿½jï¿½ . S'il vous plaï¿½t entrer une adresse e -mail diffï¿½rente ."
+
+#: Views\Home\Index.cshtml:30
+msgid "Add NuGet packages and jump-start your coding"
+msgstr "Ajoutez des packages NuGet et dÃ©marrer votre codage"
 
 #: Controllers\AccountController.cs:402
 msgid "An unknown error occurred. Please verify your entry and try again. If the problem persists, please contact your system administrator."
-msgstr "Une erreur inconnue s'est produite . S'il vous plaît vérifier votre inscription et réessayez. Si le problème persiste , s'il vous plaît contacter votre administrateur système ."
+msgstr "Une erreur inconnue s'est produite . S'il vous plaï¿½t vï¿½rifier votre inscription et rï¿½essayez. Si le problï¿½me persiste , s'il vous plaï¿½t contacter votre administrateur systï¿½me ."
+
+#: Views\Home\About.cshtml:25
+msgid "Aside Title"
+msgstr "Outre le titre"
+
+#: Views\Home\Index.cshtml:25
+msgid "ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards."
+msgstr "ASP.NET MVC vous donne , d'une maniÃ¨re axÃ©e sur les modÃ¨les - puissant pour construire des sites Web dynamiques qui permet une sÃ©paration claire des prÃ©occupations et qui vous donne un contrÃ´le complet sur le balisage pour le dÃ©veloppement agile agrÃ©able . ASP.NET MVC inclut de nombreuses fonctionnalitÃ©s qui permettent un dÃ©veloppement rapide , TDD de l'environnement pour la crÃ©ation d'applications sophistiquÃ©es qui utilisent les derniers standards du web ."
 
 #: Views\Home\Index.cshtml:15
 msgid "If you have any questions about ASP.NET MVC visit"
@@ -16,15 +28,19 @@ msgstr "Si vous avez des questions sur ASP.NET MVC visite"
 
 #: Controllers\HomeController.cs:13
 msgid "Modify this template to jump-start your ASP.NET MVC application."
-msgstr "Modifier ce modèle pour démarrer votre application ASP.NET MVC ."
+msgstr "Modifier ce modï¿½le pour dï¿½marrer votre application ASP.NET MVC ."
+
+#: Views\Home\Index.cshtml:31
+msgid "NuGet makes it easy to install and update free libraries and tools."
+msgstr "NuGet , il est facile Ã  installer et Ã  mettre Ã  jour les bibliothÃ¨ques et d'outils gratuits ."
 
 #: Filters\InitializeSimpleMembershipAttribute.cs:45
 msgid "The ASP.NET Simple Membership database could not be initialized. For more information, please see "
-msgstr "La base de données d'adhésion simple ASP.NET pas pu être initialisé . Pour plus d'informations , s'il vous plaît voir"
+msgstr "La base de donnï¿½es d'adhï¿½sion simple ASP.NET pas pu ï¿½tre initialisï¿½ . Pour plus d'informations , s'il vous plaï¿½t voir"
 
 #: Controllers\AccountController.cs:396
 msgid "The authentication provider returned an error. Please verify your entry and try again. If the problem persists, please contact your system administrator."
-msgstr "Le fournisseur d'authentification renvoyé une erreur. S'il vous plaît vérifier votre inscription et réessayez. Si le problème persiste , s'il vous plaît contacter votre administrateur système ."
+msgstr "Le fournisseur d'authentification renvoyï¿½ une erreur. S'il vous plaï¿½t vï¿½rifier votre inscription et rï¿½essayez. Si le problï¿½me persiste , s'il vous plaï¿½t contacter votre administrateur systï¿½me ."
 
 #: Controllers\AccountController.cs:171
 msgid "The current password is incorrect or the new password is invalid."
@@ -32,27 +48,31 @@ msgstr "Le mot de passe actuel est incorrecte ou le nouveau mot de passe est inv
 
 #: Controllers\AccountController.cs:384
 msgid "The e-mail address provided is invalid. Please check the value and try again."
-msgstr "L'adresse e -mail fournie n'est pas valide. S'il vous plaît vérifier la valeur et essayer à nouveau."
+msgstr "L'adresse e -mail fournie n'est pas valide. S'il vous plaï¿½t vï¿½rifier la valeur et essayer ï¿½ nouveau."
 
 #: Controllers\AccountController.cs:133
 msgid "The external login was removed."
-msgstr "La connexion externe a été retiré ."
+msgstr "La connexion externe a ï¿½tï¿½ retirï¿½ ."
+
+#: Views\Home\Index.cshtml:14
+msgid "The page features "
+msgstr ""
 
 #: Controllers\AccountController.cs:381
 msgid "The password provided is invalid. Please enter a valid password value."
-msgstr "Le mot de passe est invalide . S'il vous plaît entrer une valeur de mot de passe valide ."
+msgstr "Le mot de passe est invalide . S'il vous plaï¿½t entrer une valeur de mot de passe valide ."
 
 #: Controllers\AccountController.cs:387
 msgid "The password retrieval answer provided is invalid. Please check the value and try again."
-msgstr "La réponse de récupération de mot de passe est invalide . S'il vous plaît vérifier la valeur et essayer à nouveau."
+msgstr "La rï¿½ponse de rï¿½cupï¿½ration de mot de passe est invalide . S'il vous plaï¿½t vï¿½rifier la valeur et essayer ï¿½ nouveau."
 
 #: Controllers\AccountController.cs:390
 msgid "The password retrieval question provided is invalid. Please check the value and try again."
-msgstr "La question de la récupération de mot de passe est invalide . S'il vous plaît vérifier la valeur et essayer à nouveau."
+msgstr "La question de la rï¿½cupï¿½ration de mot de passe est invalide . S'il vous plaï¿½t vï¿½rifier la valeur et essayer ï¿½ nouveau."
 
 #: Controllers\AccountController.cs:399
 msgid "The user creation request has been canceled. Please verify your entry and try again. If the problem persists, please contact your system administrator."
-msgstr "La demande de création d'utilisateur a été annulée . S'il vous plaît vérifier votre inscription et réessayez. Si le problème persiste , s'il vous plaît contacter votre administrateur système "
+msgstr "La demande de crï¿½ation d'utilisateur a ï¿½tï¿½ annulï¿½e . S'il vous plaï¿½t vï¿½rifier votre inscription et rï¿½essayez. Si le problï¿½me persiste , s'il vous plaï¿½t contacter votre administrateur systï¿½me "
 
 #: Controllers\AccountController.cs:44
 msgid "The user name or password provided is incorrect."
@@ -60,7 +80,7 @@ msgstr "Le nom d'utilisateur ou mot de passe introduit n'est pas correct ."
 
 #: Controllers\AccountController.cs:393
 msgid "The user name provided is invalid. Please check the value and try again."
-msgstr "Le nom d'utilisateur est invalide . S'il vous plaît vérifier la valeur et essayer à nouveau."
+msgstr "Le nom d'utilisateur est invalide . S'il vous plaï¿½t vï¿½rifier la valeur et essayer ï¿½ nouveau."
 
 #: Views\Home\Index.cshtml:12
 msgid "To learn more about ASP.NET MVC visit"
@@ -68,12 +88,25 @@ msgstr "Pour en savoir plus sur ASP.NET MVC visite"
 
 #: Controllers\AccountController.cs:194
 msgid "Unable to create local account. An account with the name \"{0}\" may already exist."
-msgstr "Impossible de créer le compte local . Un compte avec le nom \ "{0} \ " peut déjà exister."
+msgstr ""
+
+#: Views\Home\About.cshtml:12
+#: Views\Home\About.cshtml:16
+#: Views\Home\About.cshtml:20
+#: Views\Home\About.cshtml:27
+msgid "Use this area to provide additional information."
+msgstr ""
 
 #: Controllers\AccountController.cs:283
 #: Controllers\AccountController.cs:375
 msgid "User name already exists. Please enter a different user name."
-msgstr "Nom d'utilisateur existe déjà . S'il vous plaît entrer un nom d'utilisateur différent ."
+msgstr "Nom d'utilisateur existe dï¿½jï¿½ . S'il vous plaï¿½t entrer un nom d'utilisateur diffï¿½rent ."
+
+#: Views\Home\Index.cshtml:37
+msgid ""
+"You can easily find a web hosting company that offers the right mix of features\n"
+"        and price for your applications."
+msgstr "Utilisez cette zone pour fournir des informations supplÃ©mentaires ."
 
 #: Controllers\HomeController.cs:20
 msgid "Your app description page."
@@ -85,9 +118,26 @@ msgstr "Votre page de contact ."
 
 #: Controllers\AccountController.cs:131
 msgid "Your password has been changed."
-msgstr "Votre mot de passe a été changé ."
+msgstr "Votre mot de passe a ï¿½tï¿½ changï¿½ ."
 
 #: Controllers\AccountController.cs:132
 msgid "Your password has been set."
-msgstr "Votre mot de passe a été défini."
+msgstr "Votre mot de passe a ï¿½tï¿½ dï¿½fini."
+
+#~ msgid " ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards."
+#~ msgstr "ASP.NET MVC vous donne , d'une maniÃ¨re axÃ©e sur les modÃ¨les - puissant pour construire des sites Web dynamiques qui permet une sÃ©paration claire des prÃ©occupations et qui vous donne un contrÃ´le complet sur le balisage pour le dÃ©veloppement agile agrÃ©able . ASP.NET MVC inclut de nombreuses fonctionnalitÃ©s qui permettent un dÃ©veloppement rapide , TDD de l'environnement pour la crÃ©ation d'applications sophistiquÃ©es qui utilisent les derniers standards du web ."
+
+#~ msgid ""
+"ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that\n"
+"        enables a clean separation of concerns and that gives you full control over markup\n"
+"        for enjoyable, agile development. ASP.NET MVC includes many features that enable\n"
+"        fast, TDD-friendly development for creating sophisticated applications that use\n"
+"        the latest web standards."
+#~ msgstr ""
+
+#~ msgid "The page features <mark>videos, tutorials, and samples</mark> to help you get the most from ASP.NET MVC."
+#~ msgstr "La page des fonctionnalitÃ©s <mark> marque vidÃ©os, didacticiels et les exemples < / mark > pour vous aider Ã  tirer le maximum de ASP.NET MVC ."
+
+#~ msgid "Unable to create local account. An account with the name "{0}" may already exist."
+#~ msgstr ""
 

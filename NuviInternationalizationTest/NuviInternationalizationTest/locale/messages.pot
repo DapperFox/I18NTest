@@ -6,8 +6,20 @@ msgstr ""
 msgid "A user name for that e-mail address already exists. Please enter a different e-mail address."
 msgstr ""
 
+#: Views\Home\Index.cshtml:30
+msgid "Add NuGet packages and jump-start your coding"
+msgstr ""
+
 #: Controllers\AccountController.cs:402
 msgid "An unknown error occurred. Please verify your entry and try again. If the problem persists, please contact your system administrator."
+msgstr ""
+
+#: Views\Home\About.cshtml:25
+msgid "Aside Title"
+msgstr ""
+
+#: Views\Home\Index.cshtml:25
+msgid "ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards."
 msgstr ""
 
 #: Views\Home\Index.cshtml:15
@@ -16,6 +28,10 @@ msgstr ""
 
 #: Controllers\HomeController.cs:13
 msgid "Modify this template to jump-start your ASP.NET MVC application."
+msgstr ""
+
+#: Views\Home\Index.cshtml:31
+msgid "NuGet makes it easy to install and update free libraries and tools."
 msgstr ""
 
 #: Filters\InitializeSimpleMembershipAttribute.cs:45
@@ -36,6 +52,10 @@ msgstr ""
 
 #: Controllers\AccountController.cs:133
 msgid "The external login was removed."
+msgstr ""
+
+#: Views\Home\Index.cshtml:14
+msgid "The page features "
 msgstr ""
 
 #: Controllers\AccountController.cs:381
@@ -70,9 +90,21 @@ msgstr ""
 msgid "Unable to create local account. An account with the name \\"{0}\\" may already exist."
 msgstr ""
 
+#: Views\Home\About.cshtml:12
+#: Views\Home\About.cshtml:16
+#: Views\Home\About.cshtml:20
+#: Views\Home\About.cshtml:27
+msgid "Use this area to provide additional information."
+msgstr ""
+
 #: Controllers\AccountController.cs:283
 #: Controllers\AccountController.cs:375
 msgid "User name already exists. Please enter a different user name."
+msgstr ""
+
+#: Views\Home\Index.cshtml:37
+msgid "You can easily find a web hosting company that offers the right mix of features
+        and price for your applications."
 msgstr ""
 
 #: Controllers\HomeController.cs:20

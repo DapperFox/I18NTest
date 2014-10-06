@@ -18,7 +18,7 @@ namespace NuviInternationalizationTest
 		{
 
 			// Change from the default of 'en'.
-			i18n.LocalizedApplication.Current.DefaultLanguage = "fr";
+			i18n.LocalizedApplication.Current.DefaultLanguage = "de";
 
 			// Change from the of temporary redirects during URL localization
 			i18n.LocalizedApplication.Current.PermanentRedirects = true;
