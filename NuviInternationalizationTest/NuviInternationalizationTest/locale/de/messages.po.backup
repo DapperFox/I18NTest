@@ -4,14 +4,47 @@ msgstr ""
 
 #: Controllers\AccountController.cs:378
 msgid "A user name for that e-mail address already exists. Please enter a different e-mail address."
+msgstr "Ein Benutzername f�r diese E -Mail-Adresse existiert bereits. Bitte geben Sie eine andere E -Mail-Adresse "
+
+#: Views\Home\About.cshtml:31
+#: Views\Shared\_Layout.cshtml:24
+msgid "About"
+msgstr ""
+
+#: Views\Home\Index.cshtml:34
+msgid "Add %0 packages and jump-start your coding"
 msgstr ""
 
 #: Controllers\AccountController.cs:402
 msgid "An unknown error occurred. Please verify your entry and try again. If the problem persists, please contact your system administrator."
 msgstr ""
 
+#: Views\Home\About.cshtml:32
+#: Views\Shared\_Layout.cshtml:25
+msgid "Contact"
+msgstr ""
+
+#: Views\Home\Index.cshtml:40
+msgid "Find Web Hosting"
+msgstr ""
+
+#: Views\Home\Index.cshtml:24
+msgid "Getting Started"
+msgstr ""
+
+#: Views\Home\About.cshtml:30
+#: Views\Shared\_Layout.cshtml:23
+msgid "Home"
+msgstr ""
+
 #: Views\Home\Index.cshtml:15
 msgid "If you have any questions about ASP.NET MVC visit"
+msgstr ""
+
+#: Views\Home\Index.cshtml:30
+#: Views\Home\Index.cshtml:36
+#: Views\Home\Index.cshtml:43
+msgid "Learn more…"
 msgstr ""
 
 #: Controllers\HomeController.cs:13
@@ -75,6 +108,10 @@ msgstr ""
 msgid "User name already exists. Please enter a different user name."
 msgstr ""
 
+#: Views\Home\Index.cshtml:21
+msgid "We suggest the following"
+msgstr ""
+
 #: Controllers\HomeController.cs:20
 msgid "Your app description page."
 msgstr ""
@@ -90,4 +127,10 @@ msgstr ""
 #: Controllers\AccountController.cs:132
 msgid "Your password has been set."
 msgstr ""
+
+#~ msgid "Add "
+#~ msgstr ""
+
+#~ msgid "Unable to create local account. An account with the name "{0}" may already exist."
+#~ msgstr ""
 

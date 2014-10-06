@@ -6,6 +6,8 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using i18n;
+
 
 namespace NuviInternationalizationTest
 {
@@ -16,7 +18,7 @@ namespace NuviInternationalizationTest
 	{
 		protected void Application_Start()
 		{
-
+            
 			// Change from the default of 'en'.
 			i18n.LocalizedApplication.Current.DefaultLanguage = "fr";
 

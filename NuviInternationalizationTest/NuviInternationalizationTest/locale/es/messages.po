@@ -26,11 +26,11 @@ msgstr ""
 
 #: Views\Home\Index.cshtml:40
 msgid "Find Web Hosting"
-msgstr ""
+msgstr "Encontrar alojamiento web"
 
 #: Views\Home\Index.cshtml:24
 msgid "Getting Started"
-msgstr ""
+msgstr "Para empezar"
 
 #: Views\Home\About.cshtml:30
 #: Views\Shared\_Layout.cshtml:23
@@ -39,7 +39,7 @@ msgstr ""
 
 #: Views\Home\Index.cshtml:15
 msgid "If you have any questions about ASP.NET MVC visit"
-msgstr ""
+msgstr "Si tienes alguna pregunta acerca de ASP.NET MVC visita"
 
 #: Views\Home\Index.cshtml:30
 #: Views\Home\Index.cshtml:36
@@ -100,7 +100,7 @@ msgid "To learn more about ASP.NET MVC visit"
 msgstr ""
 
 #: Controllers\AccountController.cs:194
-msgid "Unable to create local account. An account with the name \\"{0}\\" may already exist."
+msgid "Unable to create local account. An account with the name \"{0}\" may already exist."
 msgstr ""
 
 #: Controllers\AccountController.cs:283
@@ -127,4 +127,7 @@ msgstr ""
 #: Controllers\AccountController.cs:132
 msgid "Your password has been set."
 msgstr ""
+
+#~ msgid "Unable to create local account. An account with the name "{0}" may already exist."
+#~ msgstr ""
 

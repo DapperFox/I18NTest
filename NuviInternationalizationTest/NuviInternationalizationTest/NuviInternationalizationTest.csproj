@@ -20,6 +20,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,28 +42,34 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Castle.Core">
-      <HintPath>..\..\..\..\..\..\..\Nuvi\i18n\src\i18n.Tests\bin\Debug\Castle.Core.dll</HintPath>
+      <HintPath>..\packages\Castle.Core.3.3.1\lib\net40-client\Castle.Core.dll</HintPath>
     </Reference>
-    <Reference Include="container">
-      <HintPath>..\..\..\..\..\..\..\Nuvi\i18n\src\i18n.Domain.Tests\bin\Debug\container.dll</HintPath>
+    <Reference Include="container, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\i18n\src\i18n.Domain.Tests\bin\Debug\container.dll</HintPath>
     </Reference>
     <Reference Include="FakeItEasy">
-      <HintPath>..\..\..\..\..\..\..\Nuvi\i18n\src\i18n.Tests\bin\Debug\FakeItEasy.dll</HintPath>
+      <HintPath>..\packages\FakeItEasy.1.24.0\lib\net40\FakeItEasy.dll</HintPath>
     </Reference>
-    <Reference Include="i18n">
-      <HintPath>..\..\..\..\..\..\..\Nuvi\i18n\src\i18n\obj\Debug\i18n.dll</HintPath>
+    <Reference Include="i18n, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\i18n\src\i18n\obj\Debug\i18n.dll</HintPath>
     </Reference>
-    <Reference Include="i18n.Domain">
-      <HintPath>..\..\..\..\..\..\..\Nuvi\i18n\src\i18n.Domain\bin\Debug\i18n.Domain.dll</HintPath>
+    <Reference Include="i18n.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b54a7283d4bad1bb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\i18n\src\i18n.Domain\bin\Debug\i18n.Domain.dll</HintPath>
     </Reference>
-    <Reference Include="i18n.Domain.Tests">
-      <HintPath>..\..\..\..\..\..\..\Nuvi\i18n\src\i18n.Domain.Tests\bin\Debug\i18n.Domain.Tests.dll</HintPath>
+    <Reference Include="i18n.Domain.Tests, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\i18n\src\i18n.Domain.Tests\bin\Debug\i18n.Domain.Tests.dll</HintPath>
     </Reference>
-    <Reference Include="i18n.PostBuild">
-      <HintPath>..\..\..\..\..\..\..\Nuvi\i18n\src\i18n.Tests\bin\Debug\i18n.PostBuild.exe</HintPath>
+    <Reference Include="i18n.PostBuild, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\i18n\src\i18n.PostBuild\bin\Debug\i18n.PostBuild.exe</HintPath>
     </Reference>
-    <Reference Include="i18n.POTGenerator">
-      <HintPath>..\..\..\..\..\..\..\Nuvi\i18n\src\i18n.POTGenerator\bin\Debug\i18n.POTGenerator.dll</HintPath>
+    <Reference Include="i18n.POTGenerator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b54a7283d4bad1bb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\i18n\src\i18n.POTGenerator\bin\Debug\i18n.POTGenerator.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -280,6 +288,8 @@
     <Content Include="locale\de\messages.po" />
     <Content Include="locale\en-us\messages.po" />
     <Content Include="locale\pt-br\messages.po" />
+    <Content Include="locale\bg\messages.po" />
+    <Content Include="locale\es\messages.po" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -372,6 +382,13 @@
   <PropertyGroup>
     <PostBuildEvent>"$(TargetDir)i18n.PostBuild.exe" "$(ProjectDir)\web.config"</PostBuildEvent>
   </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

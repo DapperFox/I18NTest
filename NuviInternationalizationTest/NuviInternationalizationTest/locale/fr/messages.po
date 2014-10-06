@@ -6,13 +6,46 @@ msgstr ""
 msgid "A user name for that e-mail address already exists. Please enter a different e-mail address."
 msgstr "Un nom d'utilisateur pour cette adresse e -mail existe d�j� . S'il vous pla�t entrer une adresse e -mail diff�rente ."
 
+#: Views\Home\About.cshtml:31
+#: Views\Shared\_Layout.cshtml:24
+msgid "About"
+msgstr "Sur"
+
+#: Views\Home\Index.cshtml:34
+msgid "Add %0 packages and jump-start your coding"
+msgstr "Ajouter des packages %0 et démarrez rapidement vos codes"
+
 #: Controllers\AccountController.cs:402
 msgid "An unknown error occurred. Please verify your entry and try again. If the problem persists, please contact your system administrator."
 msgstr "Une erreur inconnue s'est produite . S'il vous pla�t v�rifier votre inscription et r�essayez. Si le probl�me persiste , s'il vous pla�t contacter votre administrateur syst�me ."
 
+#: Views\Home\About.cshtml:32
+#: Views\Shared\_Layout.cshtml:25
+msgid "Contact"
+msgstr "Contact"
+
+#: Views\Home\Index.cshtml:40
+msgid "Find Web Hosting"
+msgstr "Trouver Hébergement web"
+
+#: Views\Home\Index.cshtml:24
+msgid "Getting Started"
+msgstr "Mise en route"
+
+#: Views\Home\About.cshtml:30
+#: Views\Shared\_Layout.cshtml:23
+msgid "Home"
+msgstr "Accueil"
+
 #: Views\Home\Index.cshtml:15
 msgid "If you have any questions about ASP.NET MVC visit"
 msgstr "Si vous avez des questions sur ASP.NET MVC visite"
+
+#: Views\Home\Index.cshtml:30
+#: Views\Home\Index.cshtml:36
+#: Views\Home\Index.cshtml:43
+msgid "Learn more…"
+msgstr "Pour en sevoir plus…"
 
 #: Controllers\HomeController.cs:13
 msgid "Modify this template to jump-start your ASP.NET MVC application."
@@ -75,6 +108,10 @@ msgstr ""
 msgid "User name already exists. Please enter a different user name."
 msgstr "Nom d'utilisateur existe d�j� . S'il vous pla�t entrer un nom d'utilisateur diff�rent ."
 
+#: Views\Home\Index.cshtml:21
+msgid "We suggest the following"
+msgstr "Nous vous suggérons ce qui suit"
+
 #: Controllers\HomeController.cs:20
 msgid "Your app description page."
 msgstr "Votre page de description de l'application "
@@ -92,5 +129,5 @@ msgid "Your password has been set."
 msgstr "Votre mot de passe a �t� d�fini."
 
 #~ msgid "Unable to create local account. An account with the name "{0}" may already exist."
-#~ msgstr "Impossible de cr�er le compte local . Un compte avec le nom \ \"{0} \ \" peut d�j� exister."
+#~ msgstr ""
 

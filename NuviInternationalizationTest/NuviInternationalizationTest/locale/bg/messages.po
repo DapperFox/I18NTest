@@ -100,7 +100,7 @@ msgid "To learn more about ASP.NET MVC visit"
 msgstr ""
 
 #: Controllers\AccountController.cs:194
-msgid "Unable to create local account. An account with the name \\"{0}\\" may already exist."
+msgid "Unable to create local account. An account with the name \"{0}\" may already exist."
 msgstr ""
 
 #: Controllers\AccountController.cs:283
@@ -127,4 +127,7 @@ msgstr ""
 #: Controllers\AccountController.cs:132
 msgid "Your password has been set."
 msgstr ""
+
+#~ msgid "Unable to create local account. An account with the name "{0}" may already exist."
+#~ msgstr ""
 
