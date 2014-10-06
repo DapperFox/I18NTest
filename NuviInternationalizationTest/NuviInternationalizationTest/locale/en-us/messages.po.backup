@@ -2,6 +2,14 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 
+#: Controllers\AccountController.cs:378
+msgid "A user name for that e-mail address already exists. Please enter a different e-mail address."
+msgstr ""
+
+#: Controllers\AccountController.cs:402
+msgid "An unknown error occurred. Please verify your entry and try again. If the problem persists, please contact your system administrator."
+msgstr ""
+
 #: Views\Home\Index.cshtml:15
 msgid "If you have any questions about ASP.NET MVC visit"
 msgstr ""
@@ -10,7 +18,76 @@ msgstr ""
 msgid "Modify this template to jump-start your ASP.NET MVC application."
 msgstr ""
 
+#: Filters\InitializeSimpleMembershipAttribute.cs:45
+msgid "The ASP.NET Simple Membership database could not be initialized. For more information, please see "
+msgstr ""
+
+#: Controllers\AccountController.cs:396
+msgid "The authentication provider returned an error. Please verify your entry and try again. If the problem persists, please contact your system administrator."
+msgstr ""
+
+#: Controllers\AccountController.cs:171
+msgid "The current password is incorrect or the new password is invalid."
+msgstr ""
+
+#: Controllers\AccountController.cs:384
+msgid "The e-mail address provided is invalid. Please check the value and try again."
+msgstr ""
+
+#: Controllers\AccountController.cs:133
+msgid "The external login was removed."
+msgstr ""
+
+#: Controllers\AccountController.cs:381
+msgid "The password provided is invalid. Please enter a valid password value."
+msgstr ""
+
+#: Controllers\AccountController.cs:387
+msgid "The password retrieval answer provided is invalid. Please check the value and try again."
+msgstr ""
+
+#: Controllers\AccountController.cs:390
+msgid "The password retrieval question provided is invalid. Please check the value and try again."
+msgstr ""
+
+#: Controllers\AccountController.cs:399
+msgid "The user creation request has been canceled. Please verify your entry and try again. If the problem persists, please contact your system administrator."
+msgstr ""
+
+#: Controllers\AccountController.cs:44
+msgid "The user name or password provided is incorrect."
+msgstr ""
+
+#: Controllers\AccountController.cs:393
+msgid "The user name provided is invalid. Please check the value and try again."
+msgstr ""
+
 #: Views\Home\Index.cshtml:12
 msgid "To learn more about ASP.NET MVC visit"
+msgstr ""
+
+#: Controllers\AccountController.cs:194
+msgid "Unable to create local account. An account with the name \"{0}\" may already exist."
+msgstr ""
+
+#: Controllers\AccountController.cs:283
+#: Controllers\AccountController.cs:375
+msgid "User name already exists. Please enter a different user name."
+msgstr ""
+
+#: Controllers\HomeController.cs:20
+msgid "Your app description page."
+msgstr ""
+
+#: Controllers\HomeController.cs:27
+msgid "Your contact page."
+msgstr ""
+
+#: Controllers\AccountController.cs:131
+msgid "Your password has been changed."
+msgstr ""
+
+#: Controllers\AccountController.cs:132
+msgid "Your password has been set."
 msgstr ""
 
