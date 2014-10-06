@@ -19,6 +19,14 @@ msgstr ""
 msgid "An unknown error occurred. Please verify your entry and try again. If the problem persists, please contact your system administrator."
 msgstr ""
 
+#: Views\Home\About.cshtml:25
+msgid "Aside Title"
+msgstr ""
+
+#: Views\Home\Index.cshtml:25
+msgid "ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards."
+msgstr ""
+
 #: Views\Home\About.cshtml:32
 #: Views\Shared\_Layout.cshtml:25
 msgid "Contact"
@@ -51,6 +59,10 @@ msgstr ""
 msgid "Modify this template to jump-start your ASP.NET MVC application."
 msgstr ""
 
+#: Views\Home\Index.cshtml:31
+msgid "NuGet makes it easy to install and update free libraries and tools."
+msgstr ""
+
 #: Filters\InitializeSimpleMembershipAttribute.cs:45
 msgid "The ASP.NET Simple Membership database could not be initialized. For more information, please see "
 msgstr ""
@@ -69,6 +81,10 @@ msgstr ""
 
 #: Controllers\AccountController.cs:133
 msgid "The external login was removed."
+msgstr ""
+
+#: Views\Home\Index.cshtml:14
+msgid "The page features "
 msgstr ""
 
 #: Controllers\AccountController.cs:381
@@ -103,9 +119,22 @@ msgstr ""
 msgid "Unable to create local account. An account with the name \"{0}\" may already exist."
 msgstr ""
 
+#: Views\Home\About.cshtml:12
+#: Views\Home\About.cshtml:16
+#: Views\Home\About.cshtml:20
+#: Views\Home\About.cshtml:27
+msgid "Use this area to provide additional information."
+msgstr ""
+
 #: Controllers\AccountController.cs:283
 #: Controllers\AccountController.cs:375
 msgid "User name already exists. Please enter a different user name."
+msgstr ""
+
+#: Views\Home\Index.cshtml:37
+msgid ""
+"You can easily find a web hosting company that offers the right mix of features\n"
+"        and price for your applications."
 msgstr ""
 
 #: Views\Home\Index.cshtml:21
@@ -127,6 +156,22 @@ msgstr ""
 #: Controllers\AccountController.cs:132
 msgid "Your password has been set."
 msgstr ""
+
+#~ msgid ""
+"Add NuGet packages and jump-start your coding</h5>\n"
+"        NuGet makes it easy to install and update free libraries and tools."
+#~ msgstr ""
+
+#~ msgid ""
+"ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that\n"
+"        enables a clean separation of concerns and that gives you full control over markup\n"
+"        for enjoyable, agile development. ASP.NET MVC includes many features that enable\n"
+"        fast, TDD-friendly development for creating sophisticated applications that use\n"
+"        the latest web standards."
+#~ msgstr ""
+
+#~ msgid "The page features <mark>videos, tutorials, and samples</mark> to help you get the most from ASP.NET MVC."
+#~ msgstr ""
 
 #~ msgid "Add "
 #~ msgstr ""

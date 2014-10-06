@@ -51,6 +51,10 @@ msgstr "Pour en sevoir plus…"
 msgid "Modify this template to jump-start your ASP.NET MVC application."
 msgstr "Modifier ce mod�le pour d�marrer votre application ASP.NET MVC ."
 
+#: Views\Home\Index.cshtml:31
+msgid "NuGet makes it easy to install and update free libraries and tools."
+msgstr "NuGet , il est facile à installer et à mettre à jour les bibliothèques et d'outils gratuits ."
+
 #: Filters\InitializeSimpleMembershipAttribute.cs:45
 msgid "The ASP.NET Simple Membership database could not be initialized. For more information, please see "
 msgstr "La base de donn�es d'adh�sion simple ASP.NET pas pu �tre initialis� . Pour plus d'informations , s'il vous pla�t voir"
@@ -70,6 +74,10 @@ msgstr "L'adresse e -mail fournie n'est pas valide. S'il vous pla�t v�rifier
 #: Controllers\AccountController.cs:133
 msgid "The external login was removed."
 msgstr "La connexion externe a �t� retir� ."
+
+#: Views\Home\Index.cshtml:14
+msgid "The page features "
+msgstr ""
 
 #: Controllers\AccountController.cs:381
 msgid "The password provided is invalid. Please enter a valid password value."
@@ -103,10 +111,23 @@ msgstr "Pour en savoir plus sur ASP.NET MVC visite"
 msgid "Unable to create local account. An account with the name \"{0}\" may already exist."
 msgstr ""
 
+#: Views\Home\About.cshtml:12
+#: Views\Home\About.cshtml:16
+#: Views\Home\About.cshtml:20
+#: Views\Home\About.cshtml:27
+msgid "Use this area to provide additional information."
+msgstr ""
+
 #: Controllers\AccountController.cs:283
 #: Controllers\AccountController.cs:375
 msgid "User name already exists. Please enter a different user name."
 msgstr "Nom d'utilisateur existe d�j� . S'il vous pla�t entrer un nom d'utilisateur diff�rent ."
+
+#: Views\Home\Index.cshtml:37
+msgid ""
+"You can easily find a web hosting company that offers the right mix of features\n"
+"        and price for your applications."
+msgstr "Utilisez cette zone pour fournir des informations supplémentaires ."
 
 #: Views\Home\Index.cshtml:21
 msgid "We suggest the following"
@@ -127,6 +148,20 @@ msgstr "Votre mot de passe a �t� chang� ."
 #: Controllers\AccountController.cs:132
 msgid "Your password has been set."
 msgstr "Votre mot de passe a �t� d�fini."
+
+#~ msgid " ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards."
+#~ msgstr "ASP.NET MVC vous donne , d'une manière axée sur les modèles - puissant pour construire des sites Web dynamiques qui permet une séparation claire des préoccupations et qui vous donne un contrôle complet sur le balisage pour le développement agile agréable . ASP.NET MVC inclut de nombreuses fonctionnalités qui permettent un développement rapide , TDD de l'environnement pour la création d'applications sophistiquées qui utilisent les derniers standards du web ."
+
+#~ msgid ""
+"ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that\n"
+"        enables a clean separation of concerns and that gives you full control over markup\n"
+"        for enjoyable, agile development. ASP.NET MVC includes many features that enable\n"
+"        fast, TDD-friendly development for creating sophisticated applications that use\n"
+"        the latest web standards."
+#~ msgstr ""
+
+#~ msgid "The page features <mark>videos, tutorials, and samples</mark> to help you get the most from ASP.NET MVC."
+#~ msgstr "La page des fonctionnalités <mark> marque vidéos, didacticiels et les exemples < / mark > pour vous aider à tirer le maximum de ASP.NET MVC ."
 
 #~ msgid "Unable to create local account. An account with the name "{0}" may already exist."
 #~ msgstr ""
