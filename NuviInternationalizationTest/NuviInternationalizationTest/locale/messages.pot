@@ -19,6 +19,10 @@ msgstr ""
 msgid "An unknown error occurred. Please verify your entry and try again. If the problem persists, please contact your system administrator."
 msgstr ""
 
+#: Views\Home\About.cshtml:25
+msgid "Aside Title"
+msgstr ""
+
 #: Views\Home\About.cshtml:32
 #: Views\Shared\_Layout.cshtml:25
 msgid "Contact"
@@ -37,14 +41,6 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: Views\Home\About.cshtml:25
-msgid "Aside Title"
-msgstr ""
-
-#: Views\Home\Index.cshtml:25
-msgid "ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards."
-msgstr ""
-
 #: Views\Home\Index.cshtml:15
 msgid "If you have any questions about ASP.NET MVC visit"
 msgstr ""
@@ -57,10 +53,6 @@ msgstr ""
 
 #: Controllers\HomeController.cs:13
 msgid "Modify this template to jump-start your ASP.NET MVC application."
-msgstr ""
-
-#: Views\Home\Index.cshtml:31
-msgid "NuGet makes it easy to install and update free libraries and tools."
 msgstr ""
 
 #: Filters\InitializeSimpleMembershipAttribute.cs:45
@@ -81,10 +73,6 @@ msgstr ""
 
 #: Controllers\AccountController.cs:133
 msgid "The external login was removed."
-msgstr ""
-
-#: Views\Home\Index.cshtml:14
-msgid "The page features "
 msgstr ""
 
 #: Controllers\AccountController.cs:381
@@ -115,6 +103,14 @@ msgstr ""
 msgid "To learn more about ASP.NET MVC visit"
 msgstr ""
 
+#: Scripts\main.js:14
+msgid "Today is "
+msgstr ""
+
+#: Scripts\main.js:15
+msgid "Today is \" + today.getDayName()"
+msgstr ""
+
 #: Controllers\AccountController.cs:194
 msgid "Unable to create local account. An account with the name \\"{0}\\" may already exist."
 msgstr ""
@@ -129,11 +125,6 @@ msgstr ""
 #: Controllers\AccountController.cs:283
 #: Controllers\AccountController.cs:375
 msgid "User name already exists. Please enter a different user name."
-msgstr ""
-
-#: Views\Home\Index.cshtml:37
-msgid "You can easily find a web hosting company that offers the right mix of features
-        and price for your applications."
 msgstr ""
 
 #: Views\Home\Index.cshtml:21

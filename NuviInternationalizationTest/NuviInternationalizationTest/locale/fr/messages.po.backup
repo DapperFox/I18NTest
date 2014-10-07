@@ -19,6 +19,10 @@ msgstr "Ajouter des packages %0 et démarrez rapidement vos codes"
 msgid "An unknown error occurred. Please verify your entry and try again. If the problem persists, please contact your system administrator."
 msgstr "Une erreur inconnue s'est produite . S'il vous pla�t v�rifier votre inscription et r�essayez. Si le probl�me persiste , s'il vous pla�t contacter votre administrateur syst�me ."
 
+#: Views\Home\About.cshtml:25
+msgid "Aside Title"
+msgstr ""
+
 #: Views\Home\About.cshtml:32
 #: Views\Shared\_Layout.cshtml:25
 msgid "Contact"
@@ -37,14 +41,6 @@ msgstr "Mise en route"
 msgid "Home"
 msgstr "Accueil"
 
-#: Views\Home\About.cshtml:25
-msgid "Aside Title"
-msgstr "Outre le titre"
-
-#: Views\Home\Index.cshtml:25
-msgid "ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards."
-msgstr "ASP.NET MVC vous donne , d'une manière axée sur les modèles - puissant pour construire des sites Web dynamiques qui permet une séparation claire des préoccupations et qui vous donne un contrôle complet sur le balisage pour le développement agile agréable . ASP.NET MVC inclut de nombreuses fonctionnalités qui permettent un développement rapide , TDD de l'environnement pour la création d'applications sophistiquées qui utilisent les derniers standards du web ."
-
 #: Views\Home\Index.cshtml:15
 msgid "If you have any questions about ASP.NET MVC visit"
 msgstr "Si vous avez des questions sur ASP.NET MVC visite"
@@ -58,10 +54,6 @@ msgstr "Pour en sevoir plus…"
 #: Controllers\HomeController.cs:13
 msgid "Modify this template to jump-start your ASP.NET MVC application."
 msgstr "Modifier ce mod�le pour d�marrer votre application ASP.NET MVC ."
-
-#: Views\Home\Index.cshtml:31
-msgid "NuGet makes it easy to install and update free libraries and tools."
-msgstr "NuGet , il est facile à installer et à mettre à jour les bibliothèques et d'outils gratuits ."
 
 #: Filters\InitializeSimpleMembershipAttribute.cs:45
 msgid "The ASP.NET Simple Membership database could not be initialized. For more information, please see "
@@ -82,10 +74,6 @@ msgstr "L'adresse e -mail fournie n'est pas valide. S'il vous pla�t v�rifier
 #: Controllers\AccountController.cs:133
 msgid "The external login was removed."
 msgstr "La connexion externe a �t� retir� ."
-
-#: Views\Home\Index.cshtml:14
-msgid "The page features "
-msgstr ""
 
 #: Controllers\AccountController.cs:381
 msgid "The password provided is invalid. Please enter a valid password value."
@@ -115,6 +103,14 @@ msgstr "Le nom d'utilisateur est invalide . S'il vous pla�t v�rifier la vale
 msgid "To learn more about ASP.NET MVC visit"
 msgstr "Pour en savoir plus sur ASP.NET MVC visite"
 
+#: Scripts\main.js:14
+msgid "Today is "
+msgstr "aujourd'hui est "
+
+#: Scripts\main.js:15
+msgid "Today is " + today.getDayName()"
+msgstr ""
+
 #: Controllers\AccountController.cs:194
 msgid "Unable to create local account. An account with the name \"{0}\" may already exist."
 msgstr ""
@@ -130,12 +126,6 @@ msgstr ""
 #: Controllers\AccountController.cs:375
 msgid "User name already exists. Please enter a different user name."
 msgstr "Nom d'utilisateur existe d�j� . S'il vous pla�t entrer un nom d'utilisateur diff�rent ."
-
-#: Views\Home\Index.cshtml:37
-msgid ""
-"You can easily find a web hosting company that offers the right mix of features\n"
-"        and price for your applications."
-msgstr "Utilisez cette zone pour fournir des informations supplémentaires ."
 
 #: Views\Home\Index.cshtml:21
 msgid "We suggest the following"
@@ -168,9 +158,23 @@ msgstr "Votre mot de passe a �t� d�fini."
 "        the latest web standards."
 #~ msgstr ""
 
+#~ msgid "NuGet makes it easy to install and update free libraries and tools."
+#~ msgstr "NuGet , il est facile à installer et à mettre à jour les bibliothèques et d'outils gratuits ."
+
+#~ msgid "The page features "
+#~ msgstr ""
+
 #~ msgid "The page features <mark>videos, tutorials, and samples</mark> to help you get the most from ASP.NET MVC."
 #~ msgstr "La page des fonctionnalités <mark> marque vidéos, didacticiels et les exemples < / mark > pour vous aider à tirer le maximum de ASP.NET MVC ."
 
 #~ msgid "Unable to create local account. An account with the name "{0}" may already exist."
 #~ msgstr ""
+
+#~ msgid "welcome %1, today is %0"
+#~ msgstr ""
+
+#~ msgid ""
+"You can easily find a web hosting company that offers the right mix of features\n"
+"        and price for your applications."
+#~ msgstr "Utilisez cette zone pour fournir des informations supplémentaires ."
 

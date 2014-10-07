@@ -19,6 +19,10 @@ msgstr ""
 msgid "An unknown error occurred. Please verify your entry and try again. If the problem persists, please contact your system administrator."
 msgstr "Ein unbekannter Fehler ist aufgetreten. Bitte überprüfen Sie Ihre Eingabe und versuchen Sie es erneut . Wenn das Problem weiterhin besteht, kontaktieren Sie bitte Ihren Systemadministrator."
 
+#: Views\Home\About.cshtml:25
+msgid "Aside Title"
+msgstr "Neben Titel"
+
 #: Views\Home\About.cshtml:32
 #: Views\Shared\_Layout.cshtml:25
 msgid "Contact"
@@ -37,14 +41,6 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: Views\Home\About.cshtml:25
-msgid "Aside Title"
-msgstr "Neben Titel"
-
-#: Views\Home\Index.cshtml:25
-msgid "ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards."
-msgstr "ASP.NET MVC bietet Ihnen eine leistungsfähige, Muster -basierten Weg, um dynamische Websites, die eine saubere Trennung von Bedenken können und das gibt Ihnen die volle Kontrolle über Markup für angenehm, agile Entwicklung zu bauen. ASP.NET MVC enthält viele Funktionen , die schnell, TDD - freundliche Entwicklung für die Erstellung anspruchsvoller Anwendungen, die die neuesten Web- Standards nutzen zu können ."
-
 #: Views\Home\Index.cshtml:15
 msgid "If you have any questions about ASP.NET MVC visit"
 msgstr "Wenn Sie Fragen zu ASP.NET MVC Besuch haben"
@@ -58,10 +54,6 @@ msgstr ""
 #: Controllers\HomeController.cs:13
 msgid "Modify this template to jump-start your ASP.NET MVC application."
 msgstr "Ändern Sie diese Vorlage, um Starthilfe Ihre ASP.NET MVC-Anwendung ."
-
-#: Views\Home\Index.cshtml:31
-msgid "NuGet makes it easy to install and update free libraries and tools."
-msgstr "NuGet ist es einfach zu installieren und zu aktualisieren freien Bibliotheken und Werkzeuge."
 
 #: Filters\InitializeSimpleMembershipAttribute.cs:45
 msgid "The ASP.NET Simple Membership database could not be initialized. For more information, please see "
@@ -82,10 +74,6 @@ msgstr "Die E -Mail-Adresse ist ungültig . Bitte überprüfen Sie den Wert und 
 #: Controllers\AccountController.cs:133
 msgid "The external login was removed."
 msgstr "Die externe Login wurde entfernt ."
-
-#: Views\Home\Index.cshtml:14
-msgid "The page features "
-msgstr "Die Seite Merkmale"
 
 #: Controllers\AccountController.cs:381
 msgid "The password provided is invalid. Please enter a valid password value."
@@ -115,9 +103,17 @@ msgstr "The user name provided is invalid. Please check the value and try again.
 msgid "To learn more about ASP.NET MVC visit"
 msgstr ""
 
+#: Scripts\main.js:14
+msgid "Today is "
+msgstr "Heute ist "
+
+#: Scripts\main.js:15
+msgid "Today is " + today.getDayName()"
+msgstr ""
+
 #: Controllers\AccountController.cs:194
 msgid "Unable to create local account. An account with the name \"{0}\" may already exist."
-msgstr "Um mehr über die ASP.NET MVC Besuch lernen"
+msgstr ""
 
 #: Views\Home\About.cshtml:12
 #: Views\Home\About.cshtml:16
@@ -130,13 +126,6 @@ msgstr "Verwenden Sie diesen Bereich , um zusätzliche Informationen zu liefern.
 #: Controllers\AccountController.cs:375
 msgid "User name already exists. Please enter a different user name."
 msgstr "Benutzernamen ist bereits vorhanden. Bitte geben Sie einen anderen Benutzernamen ."
-
-#: Views\Home\Index.cshtml:37
-msgid ""
-"You can easily find a web hosting company that offers the right mix of features\n"
-"        and price for your applications."
-msgstr "Sie können ganz einfach einen Web- Hosting-Unternehmen , die die richtige Mischung von Funktionen \ n " bietet
-" Und Preis für Ihre Anwendungen."
 
 #: Views\Home\Index.cshtml:21
 msgid "We suggest the following"
@@ -158,12 +147,29 @@ msgstr "Ihr Passwort wurde geändert. "
 msgid "Your password has been set."
 msgstr "Ihr Passwort wurde eingestellt ."
 
-#~ msgid "Unable to create local account. An account with the name "{0}" may already exist."
-#~ msgstr ""
-
 #~ msgid "Add "
 #~ msgstr ""
 
+#~ msgid "Add NuGet packages and jump-start your coding"
+#~ msgstr "Fügen Sie NuGet -Pakete und springen -start Ihre Codierung"
+
+#~ msgid "ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards."
+#~ msgstr "ASP.NET MVC bietet Ihnen eine leistungsfähige, Muster -basierten Weg, um dynamische Websites, die eine saubere Trennung von Bedenken können und das gibt Ihnen die volle Kontrolle über Markup für angenehm, agile Entwicklung zu bauen. ASP.NET MVC enthält viele Funktionen , die schnell, TDD - freundliche Entwicklung für die Erstellung anspruchsvoller Anwendungen, die die neuesten Web- Standards nutzen zu können ."
+
+#~ msgid "NuGet makes it easy to install and update free libraries and tools."
+#~ msgstr "NuGet ist es einfach zu installieren und zu aktualisieren freien Bibliotheken und Werkzeuge."
+
+#~ msgid "The page features "
+#~ msgstr "Die Seite Merkmale"
+
 #~ msgid "Unable to create local account. An account with the name "{0}" may already exist."
 #~ msgstr ""
+
+#~ msgid "welcome %1, today is %0"
+#~ msgstr ""
+
+#~ msgid ""
+"You can easily find a web hosting company that offers the right mix of features\n"
+"        and price for your applications."
+#~ msgstr "Sie können ganz einfach einen Web- Hosting-Unternehmen , die die richtige Mischung von Funktionen \ n  Und Preis für Ihre Anwendungen."
 
