@@ -2,7 +2,14 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 
-#: Controllers\AccountController.cs:378
+#: Views\Home\Index.cshtml:28
+msgid ""
+"[ASP.NET MVC includes many features that enable\n"
+"        fast, TDD-friendly development for creating sophisticated applications that use\n"
+"        the latest web standards."
+msgstr ""
+
+#: Controllers\AccountController.cs:407
 msgid "A user name for that e-mail address already exists. Please enter a different e-mail address."
 msgstr "Ein Benutzername f�r diese E -Mail-Adresse existiert bereits. Bitte geben Sie eine andere E -Mail-Adresse "
 
@@ -11,28 +18,43 @@ msgstr "Ein Benutzername f�r diese E -Mail-Adresse existiert bereits. Bitte ge
 msgid "About"
 msgstr ""
 
-#: Views\Home\Index.cshtml:34
+#: Views\Home\Index.cshtml:35
 msgid "Add %0 packages and jump-start your coding"
 msgstr ""
 
-#: Controllers\AccountController.cs:402
+#: Controllers\AccountController.cs:431
 msgid "An unknown error occurred. Please verify your entry and try again. If the problem persists, please contact your system administrator."
-msgstr "Ein unbekannter Fehler ist aufgetreten. Bitte überprüfen Sie Ihre Eingabe und versuchen Sie es erneut . Wenn das Problem weiterhin besteht, kontaktieren Sie bitte Ihren Systemadministrator."
+msgstr ""
 
 #: Views\Home\About.cshtml:25
 msgid "Aside Title"
 msgstr "Neben Titel"
+
+#: Views\Home\Index.cshtml:26
+msgid ""
+"ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that\n"
+"        enables a clean separation of concerns and that gives you full control over markup\n"
+"        for enjoyable, agile development."
+msgstr ""
+
+#: Views\Home\Index.cshtml:66
+msgid "Auto"
+msgstr ""
+
+#: Views\Home\Index.cshtml:65
+msgid "Browser default language setting"
+msgstr ""
 
 #: Views\Home\About.cshtml:32
 #: Views\Shared\_Layout.cshtml:25
 msgid "Contact"
 msgstr ""
 
-#: Views\Home\Index.cshtml:40
+#: Views\Home\Index.cshtml:41
 msgid "Find Web Hosting"
 msgstr ""
 
-#: Views\Home\Index.cshtml:24
+#: Views\Home\Index.cshtml:25
 msgid "Getting Started"
 msgstr ""
 
@@ -41,13 +63,13 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: Views\Home\Index.cshtml:15
+#: Views\Home\Index.cshtml:16
 msgid "If you have any questions about ASP.NET MVC visit"
 msgstr "Wenn Sie Fragen zu ASP.NET MVC Besuch haben"
 
-#: Views\Home\Index.cshtml:30
-#: Views\Home\Index.cshtml:36
-#: Views\Home\Index.cshtml:43
+#: Views\Home\Index.cshtml:31
+#: Views\Home\Index.cshtml:37
+#: Views\Home\Index.cshtml:44
 msgid "Learn more…"
 msgstr ""
 
@@ -55,51 +77,55 @@ msgstr ""
 msgid "Modify this template to jump-start your ASP.NET MVC application."
 msgstr "Ändern Sie diese Vorlage, um Starthilfe Ihre ASP.NET MVC-Anwendung ."
 
+#: Views\Home\Index.cshtml:36
+msgid "NuGet makes it easy to install and update free libraries and tools."
+msgstr "NuGet ist es einfach zu installieren und zu aktualisieren freien Bibliotheken und Werkzeuge."
+
 #: Filters\InitializeSimpleMembershipAttribute.cs:45
 msgid "The ASP.NET Simple Membership database could not be initialized. For more information, please see "
 msgstr "Die ASP.NET- Mitgliedschaft Einfache Datenbank konnte nicht initialisiert werden. Weitere Informationen finden Sie unter"
 
-#: Controllers\AccountController.cs:396
+#: Controllers\AccountController.cs:425
 msgid "The authentication provider returned an error. Please verify your entry and try again. If the problem persists, please contact your system administrator."
 msgstr "Der Authentifizierungsanbieter einen Fehler zurückgegeben. Bitte überprüfen Sie Ihre Eingabe und versuchen Sie es erneut . Wenn das Problem weiterhin besteht, kontaktieren Sie bitte Ihren Systemadministrator."
 
-#: Controllers\AccountController.cs:171
+#: Controllers\AccountController.cs:173
 msgid "The current password is incorrect or the new password is invalid."
 msgstr "Das aktuelle Passwort ist nicht korrekt oder das neue Kennwort ist ungültig."
 
-#: Controllers\AccountController.cs:384
+#: Controllers\AccountController.cs:413
 msgid "The e-mail address provided is invalid. Please check the value and try again."
 msgstr "Die E -Mail-Adresse ist ungültig . Bitte überprüfen Sie den Wert und versuchen Sie es erneut ."
 
-#: Controllers\AccountController.cs:133
+#: Controllers\AccountController.cs:135
 msgid "The external login was removed."
 msgstr "Die externe Login wurde entfernt ."
 
-#: Controllers\AccountController.cs:381
+#: Controllers\AccountController.cs:410
 msgid "The password provided is invalid. Please enter a valid password value."
-msgstr "Das angegebene Passwort ist ungültig. Bitte geben Sie eine gültige Passwortwert ."
+msgstr ""
 
-#: Controllers\AccountController.cs:387
+#: Controllers\AccountController.cs:416
 msgid "The password retrieval answer provided is invalid. Please check the value and try again."
 msgstr "Die Passwortwieder Antwort ist ungültig . Bitte überprüfen Sie den Wert und versuchen Sie es erneut "
 
-#: Controllers\AccountController.cs:390
+#: Controllers\AccountController.cs:419
 msgid "The password retrieval question provided is invalid. Please check the value and try again."
 msgstr "Die Passwortwieder Frage ist ungültig . Bitte überprüfen Sie den Wert und versuchen Sie es erneut "
 
-#: Controllers\AccountController.cs:399
+#: Controllers\AccountController.cs:428
 msgid "The user creation request has been canceled. Please verify your entry and try again. If the problem persists, please contact your system administrator."
 msgstr "Der Benutzer Schaffung Gesuch wurde gelöscht . Bitte überprüfen Sie Ihre Eingabe und versuchen Sie es erneut . Wenn das Problem weiterhin besteht, kontaktieren Sie bitte Ihren Systemadministrator."
 
-#: Controllers\AccountController.cs:44
+#: Controllers\AccountController.cs:46
 msgid "The user name or password provided is incorrect."
 msgstr "Der Benutzername oder das Passwort ist nicht korrekt ."
 
-#: Controllers\AccountController.cs:393
+#: Controllers\AccountController.cs:422
 msgid "The user name provided is invalid. Please check the value and try again."
 msgstr "The user name provided is invalid. Please check the value and try again."
 
-#: Views\Home\Index.cshtml:12
+#: Views\Home\Index.cshtml:13
 msgid "To learn more about ASP.NET MVC visit"
 msgstr ""
 
@@ -111,8 +137,8 @@ msgstr "Heute ist "
 msgid "Today is " + today.getDayName()"
 msgstr ""
 
-#: Controllers\AccountController.cs:194
-msgid "Unable to create local account. An account with the name \"{0}\" may already exist."
+#: Controllers\AccountController.cs:196
+msgid "Unable to create local account. An account with the name %0 may already exist."
 msgstr ""
 
 #: Views\Home\About.cshtml:12
@@ -122,14 +148,22 @@ msgstr ""
 msgid "Use this area to provide additional information."
 msgstr "Verwenden Sie diesen Bereich , um zusätzliche Informationen zu liefern."
 
-#: Controllers\AccountController.cs:283
-#: Controllers\AccountController.cs:375
+#: Controllers\AccountController.cs:285
+#: Controllers\AccountController.cs:404
 msgid "User name already exists. Please enter a different user name."
 msgstr "Benutzernamen ist bereits vorhanden. Bitte geben Sie einen anderen Benutzernamen ."
 
-#: Views\Home\Index.cshtml:21
+# Views\Home\Index.cshtml:22
+#: Views\Home\Index.cshtml:22
+#, Views\Home\Index.cshtml:22
 msgid "We suggest the following"
 msgstr ""
+
+#: Views\Home\Index.cshtml:42
+msgid ""
+"You can easily find a web hosting company that offers the right mix of features\n"
+"        and price for your applications."
+msgstr "Sie können ganz einfach einen Web- Hosting-Unternehmen , die die richtige Mischung von Funktionen \ n  Und Preis für Ihre Anwendungen."
 
 #: Controllers\HomeController.cs:20
 msgid "Your app description page."
@@ -139,11 +173,11 @@ msgstr ""
 msgid "Your contact page."
 msgstr "Ihre App -Beschreibungsseite ."
 
-#: Controllers\AccountController.cs:131
+#: Controllers\AccountController.cs:133
 msgid "Your password has been changed."
 msgstr "Ihr Passwort wurde geändert. "
 
-#: Controllers\AccountController.cs:132
+#: Controllers\AccountController.cs:134
 msgid "Your password has been set."
 msgstr "Ihr Passwort wurde eingestellt ."
 
@@ -156,9 +190,6 @@ msgstr "Ihr Passwort wurde eingestellt ."
 #~ msgid "ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that gives you full control over markup for enjoyable, agile development. ASP.NET MVC includes many features that enable fast, TDD-friendly development for creating sophisticated applications that use the latest web standards."
 #~ msgstr "ASP.NET MVC bietet Ihnen eine leistungsfähige, Muster -basierten Weg, um dynamische Websites, die eine saubere Trennung von Bedenken können und das gibt Ihnen die volle Kontrolle über Markup für angenehm, agile Entwicklung zu bauen. ASP.NET MVC enthält viele Funktionen , die schnell, TDD - freundliche Entwicklung für die Erstellung anspruchsvoller Anwendungen, die die neuesten Web- Standards nutzen zu können ."
 
-#~ msgid "NuGet makes it easy to install and update free libraries and tools."
-#~ msgstr "NuGet ist es einfach zu installieren und zu aktualisieren freien Bibliotheken und Werkzeuge."
-
 #~ msgid "The page features "
 #~ msgstr "Die Seite Merkmale"
 
@@ -167,9 +198,4 @@ msgstr "Ihr Passwort wurde eingestellt ."
 
 #~ msgid "welcome %1, today is %0"
 #~ msgstr ""
-
-#~ msgid ""
-"You can easily find a web hosting company that offers the right mix of features\n"
-"        and price for your applications."
-#~ msgstr "Sie können ganz einfach einen Web- Hosting-Unternehmen , die die richtige Mischung von Funktionen \ n  Und Preis für Ihre Anwendungen."
 

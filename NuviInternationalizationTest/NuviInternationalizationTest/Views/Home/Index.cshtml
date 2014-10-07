@@ -1,6 +1,7 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+@using i18n
 @section featured {
     <section class="featured">
         <div class="content-wrapper">
@@ -22,24 +23,75 @@
 <ol class="round">
     <li class="one">
         <h5>[[[Getting Started]]]</h5>
-        ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+        [[[ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
         enables a clean separation of concerns and that gives you full control over markup
-        for enjoyable, agile development. ASP.NET MVC includes many features that enable
+        for enjoyable, agile development.]]] [[[[ASP.NET MVC includes many features that enable
         fast, TDD-friendly development for creating sophisticated applications that use
-        the latest web standards.
+        the latest web standards.]]]
         <a href="http://go.microsoft.com/fwlink/?LinkId=245151">[[[Learn more…]]]</a>
     </li>
 
     <li class="two">
         <h5>@string.Format("[[[Add %0 packages and jump-start your coding|||{0}]]]", "NuGet")</h5>
-        NuGet makes it easy to install and update free libraries and tools.
+        [[[NuGet makes it easy to install and update free libraries and tools.]]]
         <a href="http://go.microsoft.com/fwlink/?LinkId=245153">[[[Learn more…]]]</a>
     </li>
 
     <li class="three">
         <h5>[[[Find Web Hosting]]]</h5>
-        You can easily find a web hosting company that offers the right mix of features
-        and price for your applications.
+        [[[You can easily find a web hosting company that offers the right mix of features
+        and price for your applications.]]]
         <a href="http://go.microsoft.com/fwlink/?LinkId=245157">[[[Learn more…]]]</a>
     </li>
+    <table class="table_grid">
+        <tbody>
+            @{
+                int i;
+                int maxcols = 3;
+                KeyValuePair<string, i18n.LanguageTag>[] langs = LanguageHelpers.GetAppLanguages().OrderBy(x => x.Key).ToArray();
+                int cellcnt = langs.Length + 1;
+                for (i = 0; i < cellcnt; )
+                {
+                    bool lastRow = i + maxcols >= cellcnt;
+                    <tr class="@(Html.Raw((i % 2) == 0 ? "even":"odd")) @(Html.Raw(lastRow ? "last":""))">
+                        @for (int j = 0; j < maxcols && i < cellcnt; ++i, ++j)
+                        {
+                            string langtag;
+                            string title;
+                            string nativelangname;
+                            if (i == 0)
+                            {
+                                langtag = "";
+                                title = "[[[Browser default language setting]]]";
+                                nativelangname = "[[[Auto]]]";
+                            }
+                            else
+                            {
+                                i18n.LanguageTag lt = langs[i - 1].Value;
+                                title = langtag = lt.ToString();
+                                nativelangname = lt.NativeNameTitleCase;
+                            }
+                            <td>
+                                @Html.ActionLink(
+                                    linkText: nativelangname,
+                                    actionName: "SetLanguage",
+                                    controllerName: "Account",
+                                    routeValues: new { langtag = langtag, returnUrl = Request.Url },
+                                    htmlAttributes: new { title = title })
+                            </td>
+                        }
+                        @* Fill last row with empty cells if ness, so that borders are added and balanced out. *@
+                        @if (lastRow)
+                        {
+                            for (; i % maxcols != 0; ++i)
+                            {
+                                <td></td>
+                            }
+                        }
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
 </ol>

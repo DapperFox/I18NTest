@@ -20,13 +20,13 @@ namespace NuviInternationalizationTest
 		{
             
 			// Change from the default of 'en'.
-			i18n.LocalizedApplication.Current.DefaultLanguage = "de";
+			//i18n.LocalizedApplication.Current.DefaultLanguage = "de";
 
 			// Change from the of temporary redirects during URL localization
 			i18n.LocalizedApplication.Current.PermanentRedirects = true;
 
 			// This line can be used to disable URL Localization.
-			//i18n.LocalizedApplication.Current.EarlyUrlLocalizerService = null;
+			i18n.LocalizedApplication.Current.EarlyUrlLocalizerService = null;
 
 			// Change the URL localization scheme from Scheme1.
 			i18n.UrlLocalizer.UrlLocalizationScheme = i18n.UrlLocalizationScheme.Scheme2;

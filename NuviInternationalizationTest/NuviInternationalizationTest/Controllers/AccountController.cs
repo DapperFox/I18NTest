@@ -10,6 +10,8 @@ using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
 using NuviInternationalizationTest.Filters;
 using NuviInternationalizationTest.Models;
+using i18n;
+using i18n.Helpers;
 
 namespace NuviInternationalizationTest.Controllers
 {
@@ -191,7 +193,7 @@ namespace NuviInternationalizationTest.Controllers
 					}
 					catch (Exception)
 					{
-						ModelState.AddModelError("", String.Format("[[[Unable to create local account. An account with the name \"{0}\" may already exist.]]]", User.Identity.Name));
+						ModelState.AddModelError("", String.Format("[[[Unable to create local account. An account with the name %0 may already exist.|||{0}]]]", User.Identity.Name));
 					}
 				}
 			}
@@ -327,6 +329,33 @@ namespace NuviInternationalizationTest.Controllers
 			ViewBag.ShowRemoveButton = externalLogins.Count > 1 || OAuthWebSecurity.HasLocalAccount(WebSecurity.GetUserId(User.Identity.Name));
 			return PartialView("_RemoveExternalLoginsPartial", externalLogins);
 		}
+
+        [AllowAnonymous]
+        public ActionResult SetLanguage(String langtag, String returnUrl)
+        {
+            i18n.LanguageTag lt = i18n.LanguageTag.GetCachedInstance(langtag);
+
+            if (lt.IsValid())
+            {
+
+                HttpCookie languageTagCookie = new HttpCookie("i18n.langtag")
+                {
+                    Value = lt.ToString(),
+                    HttpOnly = true,
+                    Expires = DateTime.UtcNow.AddMonths(6)
+                };
+
+                Response.Cookies.Add(languageTagCookie);
+            }
+
+            if (returnUrl.IsSet())
+            {
+                HttpContext.SetPrincipalAppLanguageForRequest(lt);
+            }
+
+
+            return this.Redirect(returnUrl);
+        }
 
 		#region Helpers
 		private ActionResult RedirectToLocal(string returnUrl)

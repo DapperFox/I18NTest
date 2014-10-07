@@ -2,7 +2,13 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 
-#: Controllers\AccountController.cs:378
+#: Views\Home\Index.cshtml:28
+msgid "[ASP.NET MVC includes many features that enable
+        fast, TDD-friendly development for creating sophisticated applications that use
+        the latest web standards."
+msgstr ""
+
+#: Controllers\AccountController.cs:407
 msgid "A user name for that e-mail address already exists. Please enter a different e-mail address."
 msgstr ""
 
@@ -11,11 +17,11 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: Views\Home\Index.cshtml:34
+#: Views\Home\Index.cshtml:35
 msgid "Add %0 packages and jump-start your coding"
 msgstr ""
 
-#: Controllers\AccountController.cs:402
+#: Controllers\AccountController.cs:431
 msgid "An unknown error occurred. Please verify your entry and try again. If the problem persists, please contact your system administrator."
 msgstr ""
 
@@ -23,16 +29,30 @@ msgstr ""
 msgid "Aside Title"
 msgstr ""
 
+#: Views\Home\Index.cshtml:26
+msgid "ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+        enables a clean separation of concerns and that gives you full control over markup
+        for enjoyable, agile development."
+msgstr ""
+
+#: Views\Home\Index.cshtml:66
+msgid "Auto"
+msgstr ""
+
+#: Views\Home\Index.cshtml:65
+msgid "Browser default language setting"
+msgstr ""
+
 #: Views\Home\About.cshtml:32
 #: Views\Shared\_Layout.cshtml:25
 msgid "Contact"
 msgstr ""
 
-#: Views\Home\Index.cshtml:40
+#: Views\Home\Index.cshtml:41
 msgid "Find Web Hosting"
 msgstr ""
 
-#: Views\Home\Index.cshtml:24
+#: Views\Home\Index.cshtml:25
 msgid "Getting Started"
 msgstr ""
 
@@ -41,13 +61,13 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: Views\Home\Index.cshtml:15
+#: Views\Home\Index.cshtml:16
 msgid "If you have any questions about ASP.NET MVC visit"
 msgstr ""
 
-#: Views\Home\Index.cshtml:30
-#: Views\Home\Index.cshtml:36
-#: Views\Home\Index.cshtml:43
+#: Views\Home\Index.cshtml:31
+#: Views\Home\Index.cshtml:37
+#: Views\Home\Index.cshtml:44
 msgid "Learn more…"
 msgstr ""
 
@@ -55,51 +75,55 @@ msgstr ""
 msgid "Modify this template to jump-start your ASP.NET MVC application."
 msgstr ""
 
+#: Views\Home\Index.cshtml:36
+msgid "NuGet makes it easy to install and update free libraries and tools."
+msgstr ""
+
 #: Filters\InitializeSimpleMembershipAttribute.cs:45
 msgid "The ASP.NET Simple Membership database could not be initialized. For more information, please see "
 msgstr ""
 
-#: Controllers\AccountController.cs:396
+#: Controllers\AccountController.cs:425
 msgid "The authentication provider returned an error. Please verify your entry and try again. If the problem persists, please contact your system administrator."
 msgstr ""
 
-#: Controllers\AccountController.cs:171
+#: Controllers\AccountController.cs:173
 msgid "The current password is incorrect or the new password is invalid."
 msgstr ""
 
-#: Controllers\AccountController.cs:384
+#: Controllers\AccountController.cs:413
 msgid "The e-mail address provided is invalid. Please check the value and try again."
 msgstr ""
 
-#: Controllers\AccountController.cs:133
+#: Controllers\AccountController.cs:135
 msgid "The external login was removed."
 msgstr ""
 
-#: Controllers\AccountController.cs:381
+#: Controllers\AccountController.cs:410
 msgid "The password provided is invalid. Please enter a valid password value."
 msgstr ""
 
-#: Controllers\AccountController.cs:387
+#: Controllers\AccountController.cs:416
 msgid "The password retrieval answer provided is invalid. Please check the value and try again."
 msgstr ""
 
-#: Controllers\AccountController.cs:390
+#: Controllers\AccountController.cs:419
 msgid "The password retrieval question provided is invalid. Please check the value and try again."
 msgstr ""
 
-#: Controllers\AccountController.cs:399
+#: Controllers\AccountController.cs:428
 msgid "The user creation request has been canceled. Please verify your entry and try again. If the problem persists, please contact your system administrator."
 msgstr ""
 
-#: Controllers\AccountController.cs:44
+#: Controllers\AccountController.cs:46
 msgid "The user name or password provided is incorrect."
 msgstr ""
 
-#: Controllers\AccountController.cs:393
+#: Controllers\AccountController.cs:422
 msgid "The user name provided is invalid. Please check the value and try again."
 msgstr ""
 
-#: Views\Home\Index.cshtml:12
+#: Views\Home\Index.cshtml:13
 msgid "To learn more about ASP.NET MVC visit"
 msgstr ""
 
@@ -111,8 +135,8 @@ msgstr ""
 msgid "Today is \" + today.getDayName()"
 msgstr ""
 
-#: Controllers\AccountController.cs:194
-msgid "Unable to create local account. An account with the name \\"{0}\\" may already exist."
+#: Controllers\AccountController.cs:196
+msgid "Unable to create local account. An account with the name %0 may already exist."
 msgstr ""
 
 #: Views\Home\About.cshtml:12
@@ -122,13 +146,18 @@ msgstr ""
 msgid "Use this area to provide additional information."
 msgstr ""
 
-#: Controllers\AccountController.cs:283
-#: Controllers\AccountController.cs:375
+#: Controllers\AccountController.cs:285
+#: Controllers\AccountController.cs:404
 msgid "User name already exists. Please enter a different user name."
 msgstr ""
 
-#: Views\Home\Index.cshtml:21
+#: Views\Home\Index.cshtml:22
 msgid "We suggest the following"
+msgstr ""
+
+#: Views\Home\Index.cshtml:42
+msgid "You can easily find a web hosting company that offers the right mix of features
+        and price for your applications."
 msgstr ""
 
 #: Controllers\HomeController.cs:20
@@ -139,11 +168,11 @@ msgstr ""
 msgid "Your contact page."
 msgstr ""
 
-#: Controllers\AccountController.cs:131
+#: Controllers\AccountController.cs:133
 msgid "Your password has been changed."
 msgstr ""
 
-#: Controllers\AccountController.cs:132
+#: Controllers\AccountController.cs:134
 msgid "Your password has been set."
 msgstr ""
 
