@@ -8,6 +8,11 @@
 </head>
 <body>
 
+<ul>
+	<% %i(en es de).each do |locale| %>
+	<li><a href="?locale=<%= locale %>"><%= locale %></a></li>
+	<% end %>
+</ul>
 <%= yield %>
 
 </body>
